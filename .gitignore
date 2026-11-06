@@ -1,0 +1,4 @@
+build/
+mcux_include.json
+.vscode/
+__repo__/
