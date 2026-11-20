@@ -9,6 +9,7 @@ static K_KERNEL_STACK_DEFINE(stack_comm, STACK_SIZE_THREAD_COMM);
 #define PRIORIDAD_COMM 5
 
 static struct k_thread thread_comm_data;
+static k_tid_t tid_comm;
 
 void OsTask_comm_rx(void *p1, void *p2, void *p3)
 {
