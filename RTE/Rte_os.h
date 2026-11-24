@@ -3,6 +3,7 @@
 
 void Rte_Start(void);
 
+void OsTask_app(void *p1, void *p2, void *p3);
 void OsTask_comm_rx(void *p1, void *p2, void *p3);
 
 #endif
