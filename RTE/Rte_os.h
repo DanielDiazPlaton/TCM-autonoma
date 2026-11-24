@@ -3,4 +3,6 @@
 
 void Rte_Start(void);
 
+void OsTask_nvm(void *p1, void *p2, void *p3);
+
 #endif
