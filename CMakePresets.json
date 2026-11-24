@@ -12,8 +12,8 @@
       "inherits": "build-env",
       "cacheVariables": {
         "APP_DIR": {
-          "type": "PATH",
-          "value": "${fileDir}"
+          "value": "${fileDir}",
+          "type": "PATH"
         },
         "BOARD": "frdm_mcxn947/mcxn947/cpu0",
         "CMAKE_BUILD_TYPE": "build",
@@ -21,7 +21,8 @@
         "CMAKE_RUNTIME_OUTPUT_DIRECTORY": "$env{binaryDir}",
         "CMAKE_LIBRARY_OUTPUT_DIRECTORY": "$env{binaryDir}",
         "CMAKE_ARCHIVE_OUTPUT_DIRECTORY": "$env{binaryDir}"
-      }
+      },
+      "toolchainFile": ""
     }
   ],
   "buildPresets": [
