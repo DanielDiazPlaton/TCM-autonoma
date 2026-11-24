@@ -3,4 +3,6 @@
 
 void Rte_Start(void);
 
+void Ostask_diag (void *p1, void *p2, void *p3);
+
 #endif
